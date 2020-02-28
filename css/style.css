@@ -1,0 +1,103 @@
+@font-face {
+    font-family: shabnam;
+    src: url('../fonts/Shabnam-WOL.eot'), url('../fonts/Shabnam-WOL.woff2') format('woff2'), url('../fonts/Shabnam-WOL.woff') format('woff'), url('../fonts/Shabnam-WOL.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    direction: rtl;
+    font-family: shabnam;
+}
+
+.novbar {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(2, 214, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin: -10px;
+    padding: 10px;
+}
+
+.logo {
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 100px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa fa-bars {}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    width: 90%;
+    height: 300px;
+    font-size: 20px;
+    margin: 40px 10px 10px 10px;
+}
+
+table,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px;
+}
+
+.color {
+    padding-top: 100px;
+    float: left;
+    margin-right: 1330px
+}
+
+.red {
+    border: 1px solid red;
+    padding: 20px;
+    background: red;
+    width: 40px;
+    height: 40px;
+}
+
+.blue {
+    border: 1px solid blue;
+    padding: 20px;
+    background: blue;
+    width: 40px;
+    height: 40px;
+}
+
+.green {
+    border: 1px solid green;
+    padding: 20px;
+    background: green;
+    width: 40px;
+    height: 40px;
+}
+
+.yellow {
+    border: 1px solid yellow;
+    padding: 20px;
+    background: yellow;
+    width: 40px;
+    height: 40px;
+}
